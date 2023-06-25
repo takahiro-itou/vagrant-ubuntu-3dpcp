@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "takahiro-itou/ubuntu-focal64-docker"
 
   config.vm.provider "virtualbox" do |v|
-    v.name   = "vagrant-ubuntu-docker"
+    v.name   = "vagrant-ubuntu-3dpcp"
     v.memory = "3072"
 
     v.gui    = false
